@@ -36,7 +36,6 @@ class Myapp extends StatelessWidget {
                     ),
                     fit: BoxFit.cover),
               ),
-              padding: EdgeInsets.only(bottom: 10),
             ),
             Row(children: [
               SizedBox(width: 10),
@@ -69,7 +68,7 @@ class Myapp extends StatelessWidget {
                     top: BorderSide(
                         color: Color.fromARGB(255, 255, 7, 7), width: 4),
                     bottom: BorderSide(
-                        color: Color.fromARGB(255, 255, 7, 7), width: 4),
+                        color: Color.fromARGB(255, 15, 226, 85), width: 4),
                   ),
                 ),
               ),
